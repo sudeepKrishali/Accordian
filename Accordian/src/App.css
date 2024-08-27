@@ -1,0 +1,50 @@
+
+
+.wrapper{
+   display: flex;
+   height: 100vh;
+   width: 100vw;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.wrapper button{
+  padding: 10px 20px;
+  background-color: #60a5fa;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.accordian{
+  width: 80%;
+  
+}
+
+.dataitem{
+    background: #60a5fa;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+}
+
+.title{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.desc{
+  color: black;
+  height: auto;
+}
+
+.dataitem:hover {
+  transform: scale(1.05);
+}
